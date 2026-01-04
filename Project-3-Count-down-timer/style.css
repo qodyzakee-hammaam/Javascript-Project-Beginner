@@ -40,14 +40,15 @@ input{
     border-radius: 15px;
     width: 80px;
     text-align: center;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
+
 button{
     background-color: #00aaff;
     color: white;
     padding: 10px 20px;
     font-size: 1em;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.2s ease;

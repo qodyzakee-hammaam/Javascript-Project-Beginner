@@ -44,7 +44,7 @@ function startTimer(){
 
         if (konversiKeDetik < 0){
             clearInterval(hitungM)
-            alert("Hitung Mundur")
+            alert("Waktu Habis!!")
         }
 
     }, 1000 )
