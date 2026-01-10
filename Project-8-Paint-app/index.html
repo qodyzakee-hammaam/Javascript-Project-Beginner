@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-warna">
+        <div class="toolbar">
+            <button id="kuas" class="tool active">
+                Kuas
+            </button>
+            <button id="penghapus" class="tool">
+                Penghapus
+            </button>
+
+            <input type="color" id="pilih-warna" value="#000000">
+            
+            <button id="bersihkan">
+                Bersihkan
+            </button>
+        </div>
+        <canvas id="kanvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
